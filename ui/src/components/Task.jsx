@@ -9,7 +9,6 @@ import axios from "axios";
 import { API_URL } from "../utils";
 
 const Task = ({ task, fetchTasks }) => {
-  // eslint-disable-next-line no-unused-vars
   const {id, name, completed } = task;
   const [isComplete, setIsComplete] = useState(completed);
   const [isDialogopen, setIsDialogOpen] = useState(false);

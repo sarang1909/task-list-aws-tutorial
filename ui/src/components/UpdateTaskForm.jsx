@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Button, Dialog, TextField } from "@mui/material";
 import { useState } from "react";
